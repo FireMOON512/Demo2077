@@ -1,0 +1,13 @@
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\bin\Debug\DemoEx.exe.config
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\bin\Debug\DemoEx.exe
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\bin\Debug\DemoEx.pdb
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.csprojResolveAssemblyReference.cache
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.Add.resources
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.Data.resources
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.Admin.resources
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.Log.resources
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.Properties.Resources.resources
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.csproj.GenerateResource.cache
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.csproj.CoreCompileInputs.cache
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.exe
+C:\Users\it-student.MEPHI3.001\Source\Repos\DemoEx\DemoEx\obj\Debug\DemoEx.pdb

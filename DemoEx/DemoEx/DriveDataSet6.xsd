@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DriveDataSet6" targetNamespace="http://tempuri.org/DriveDataSet6.xsd" xmlns:mstns="http://tempuri.org/DriveDataSet6.xsd" xmlns="http://tempuri.org/DriveDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DriveConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DriveConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DemoEx.Properties.Settings.GlobalReference.Default.DriveConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="transport_viewTableAdapter" GeneratorDataComponentClassName="transport_viewTableAdapter" Name="transport_view" UserDataComponentName="transport_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DriveConnectionString (Settings)" DbObjectName="Drive.dbo.transport_view" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT transport_type_id, transport_color, transport_model, transport_number, transport_enabled, price, Address FROM dbo.transport_view</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="transport_type_id" DataSetColumn="transport_type_id" />
+              <Mapping SourceColumn="transport_color" DataSetColumn="transport_color" />
+              <Mapping SourceColumn="transport_model" DataSetColumn="transport_model" />
+              <Mapping SourceColumn="transport_number" DataSetColumn="transport_number" />
+              <Mapping SourceColumn="transport_enabled" DataSetColumn="transport_enabled" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DriveDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DriveDataSet6" msprop:Generator_UserDSName="DriveDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transport_view" msprop:Generator_TableClassName="transport_viewDataTable" msprop:Generator_TableVarName="tabletransport_view" msprop:Generator_TablePropName="transport_view" msprop:Generator_RowDeletingName="transport_viewRowDeleting" msprop:Generator_RowChangingName="transport_viewRowChanging" msprop:Generator_RowEvHandlerName="transport_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="transport_viewRowDeleted" msprop:Generator_UserTableName="transport_view" msprop:Generator_RowChangedName="transport_viewRowChanged" msprop:Generator_RowEvArgName="transport_viewRowChangeEvent" msprop:Generator_RowClassName="transport_viewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="transport_type_id" msprop:Generator_ColumnVarNameInTable="columntransport_type_id" msprop:Generator_ColumnPropNameInRow="transport_type_id" msprop:Generator_ColumnPropNameInTable="transport_type_idColumn" msprop:Generator_UserColumnName="transport_type_id" type="xs:int" minOccurs="0" />
+              <xs:element name="transport_color" msprop:Generator_ColumnVarNameInTable="columntransport_color" msprop:Generator_ColumnPropNameInRow="transport_color" msprop:Generator_ColumnPropNameInTable="transport_colorColumn" msprop:Generator_UserColumnName="transport_color" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_model" msprop:Generator_ColumnVarNameInTable="columntransport_model" msprop:Generator_ColumnPropNameInRow="transport_model" msprop:Generator_ColumnPropNameInTable="transport_modelColumn" msprop:Generator_UserColumnName="transport_model" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_number" msprop:Generator_ColumnVarNameInTable="columntransport_number" msprop:Generator_ColumnPropNameInRow="transport_number" msprop:Generator_ColumnPropNameInTable="transport_numberColumn" msprop:Generator_UserColumnName="transport_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_enabled" msprop:Generator_ColumnVarNameInTable="columntransport_enabled" msprop:Generator_ColumnPropNameInRow="transport_enabled" msprop:Generator_ColumnPropNameInTable="transport_enabledColumn" msprop:Generator_UserColumnName="transport_enabled" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_UserColumnName="price" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
